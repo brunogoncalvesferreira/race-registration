@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Participantes inscritos</title>
+    <link rel="stylesheet" href="/css/global.css" />
+    <link rel="stylesheet" href="/css/participants-registered.css" />
+  </head>
+  <body>
+    <div id="app">
+      <header>
+        <h1>73º Corrida da Fogueira</h1>
+        <div class="back">
+          <a href="/"
+            ><img src="./assets/arrow.svg" alt="Icone de seta para esquerda." />
+            Voltar para Home</a
+          >
+        </div>
+      </header>
+
+      <main>
+        <h1>Inscritos:</h1>
+        <div class="info-users">
+          {%for dates in date%}
+          <div class="info">
+            <p id="name">{{dates.name}}</p>
+            <p id="cpf">CPF: {{dates.cpf}}</p>
+            <p id="email">{{dates.email}}</p>
+          </div>
+          {% endfor %}
+        </div>
+      </main>
+
+      <footer>
+        <p>
+          copyritgh
+          <img src="./assets/copyritgh.svg" alt="Icone copyritgh" />
+          2022 | Bruno Gonçalves Ferreira
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>

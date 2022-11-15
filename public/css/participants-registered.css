@@ -1,0 +1,72 @@
+body {
+  background: var(--gray-900);
+}
+
+#app {
+  max-width: 1440px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+main {
+  margin-top: 4rem;
+}
+
+main h1 {
+  margin-bottom: 1rem;
+}
+
+header .back a {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  text-decoration: none;
+  color: var(--gray-300);
+  font-weight: 700;
+}
+
+.info-users {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  flex-grow: 1;
+  width: 22rem;
+  height: auto;
+  padding: 1rem;
+  background: var(--green-600);
+  border-radius: 4px;
+  margin: 0 auto;
+}
+
+#name,
+#cpf,
+#email {
+  font-size: 0.8rem;
+  font-weight: 300;
+  margin-bottom: 1rem;
+  color: var(--gray-900);
+}
+
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+  }
+
+  .info {
+    width: 100%;
+  }
+}

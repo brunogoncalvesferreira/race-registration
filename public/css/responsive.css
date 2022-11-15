@@ -1,0 +1,23 @@
+@media (max-width: 870px) {
+  html {
+    font-size: 75%;
+  }
+
+  main {
+    flex-direction: column;
+  }
+
+  .section-img img {
+    width: 100%;
+  }
+
+  .section-text {
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .section-text a {
+    display: block;
+    width: 100%;
+  }
+}
