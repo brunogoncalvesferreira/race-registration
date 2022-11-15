@@ -15,7 +15,7 @@
 
 ## 💻 Sobre o projeto
 
-A ideia do projeto seria um sistema de cadastro de pessoas para participação de um evento de corrida de rua.
+A ideia do projeto seria um sistema de cadastro de pessoas para participação de um evento de corrida de rua, com o banco de dados para que possa ter uma lista de pessoas cadastradas.
 
 ---
 
@@ -37,18 +37,16 @@ O layout da aplicação está disponível no Figma:
   <img alt="Made by tgmarinho" src="https://img.shields.io/badge/Acessar%20Layout%20-Figma-%2304D361">
 </a>
 
-### Preview
-
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
   <img alt="preview" title="preview" src=".github/home.png" width="400px">
 
 </p>
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
-  <img alt="preview" title="preview" src=".github/registered.png" width="400px">
+  <img alt="preview" title="preview" src=".github/registration.png" width="400px">
 
 </p>
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
-  <img alt="preview" title="preview" src=".github/registration.png" width="400px">
+  <img alt="preview" title="preview" src=".github/registered.png" width="400px">
 
 </p>
 
@@ -56,10 +54,10 @@ O layout da aplicação está disponível no Figma:
 
 ## 🚀 Como executar o projeto
 
-Este projeto é divido em três partes:
+Este projeto é divido em duas partes:
 
-1. Backend (pasta server)
-2. Frontend (pasta web)
+1. Backend
+2. Frontend
 
 💡Frontend precisa que o Backend esteja sendo executado para funcionar.
 
@@ -79,13 +77,10 @@ $ git clone https://github.com/brunogoncalvesferreira/race-registration.git
 # Acesse a pasta do projeto no terminal/cmd
 $ cd race-registration
 
-# Vá para a pasta server
-$ cd server
-
 # Instale as dependências
 $ npm install
 
-# Execute a aplicação em modo de desenvolvimento
+# Execute a aplicação
 $ npm start
 
 # O servidor inciará na porta:3000 - acesse http://localhost:3000
