@@ -19,6 +19,7 @@ main {
 }
 
 main h1 {
+  font-size: 1.6rem;
   margin-bottom: 1rem;
 }
 
@@ -28,6 +29,7 @@ header .back a {
   gap: 1rem;
   text-decoration: none;
   color: var(--gray-300);
+  font-size: 1.6rem;
   font-weight: 700;
 }
 
@@ -53,7 +55,7 @@ header .back a {
 #name,
 #cpf,
 #email {
-  font-size: 0.8rem;
+  font-size: 1.4rem;
   font-weight: 300;
   margin-bottom: 1rem;
   color: var(--gray-900);

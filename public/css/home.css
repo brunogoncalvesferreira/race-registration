@@ -10,7 +10,7 @@ main {
 }
 
 .section-img img {
-  width: 25rem;
+  width: 20rem;
   animation-name: running;
   animation-duration: 2s;
   animation-iteration-count: infinite;
@@ -24,7 +24,7 @@ main {
 }
 
 .section-text h2 {
-  font-size: 2.5rem;
+  font-size: 3.6rem;
   max-width: 450px;
 }
 
